@@ -12,6 +12,24 @@
 }
 
 .mein-title{
-  font-size: 50px;
-  margin: 25px 0 50px;
+  font-size: 35px;
+  margin: 25px 0;
+}
+
+.text{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.text-1{
+  font-style: italic;
+  margin: 30px 0;
+}
+
+.image-1{
+  text-align: center;
+}
+
+.ol{
+  margin: 0 30px 30px;
 }
