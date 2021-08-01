@@ -1,7 +1,8 @@
 $(function () {
 
    $('.slider').slick({
-      dots: true
+      dots: true,
+
    });
 
 });
