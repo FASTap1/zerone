@@ -27,3 +27,9 @@
 .menu ul{
   display: flex;
 }
+
+.menu a{
+  font-style: 24px;
+  line-height: 28px;
+  color: #fff;
+}
