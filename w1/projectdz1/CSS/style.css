@@ -25,7 +25,6 @@
   padding-top: 46px;
   padding-left: 0px;  
   display: flex;
-  justify-content: start;
   align-items: center;
   margin-bottom: 240px;
 }
@@ -47,12 +46,43 @@
   text-decoration: none;
 }
 
+.item{
+  text-align: start;
+  color: #fff;
+}
 
+.title{
+  font-size: 120px;
+  width: 960px;
+  height: 141px;
+}
 
+.text{
+  font-size: 36px;
+  width: 674px;
+  height: 84px;
+  margin-bottom: 46px;
+}
 
+.slick-dots{
+  list-style: none;
+  display: flex;
+}
 
+.slick-dots li + li{
+  margin-left: 20px;
+}
 
-
+.slick-dots button{
+  font-size: 0;
+  border: none;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  outline: none;
+}
 
 
 
