@@ -258,15 +258,15 @@ body{
   height: 50px;
 }
 
-.expertise__item--design::before{
+.expertise__item-design::before{
   background-image: url(../images/design-icon.svg);
 }
 
-.expertise__item--dev::before{
+.expertise__item-dev::before{
   background-image: url(../images/monitor-icon.svg);
 }
 
-.expertise__item--markerting::before{
+.expertise__item-markerting::before{
   background-image: url(../images/speaker-icon.svg);
 }
 
@@ -305,3 +305,15 @@ body{
 .magic__text p{
   margin-bottom: 25px;
 }
+
+.portfolio{
+  padding: 140px 0 165px;
+}
+
+.portfolio__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 100px;
+}
+
