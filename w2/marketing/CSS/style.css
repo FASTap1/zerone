@@ -719,6 +719,12 @@ ul.footer_social {
   color: #ccc;
 }
 
+@media (max-width: 1450px) {
+  .magic__inner{
+    padding: 50px 0;
+  }
+} 
+
 @media (max-width: 1200px) {
   .about__inner {
     display: block;
@@ -756,6 +762,16 @@ ul.footer_social {
   .expertise__item {
     width: 100%;
     margin-bottom: 40px;
+  }
+  .magic{
+    background-image: none;
+  }
+  .magic__inner{
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .magic__title{
+    margin-bottom: 50px;
   }
 }
 
