@@ -726,11 +726,36 @@ ul.footer_social {
   .about__title {
     margin-bottom: 50px;
   }
-  .about {
+  .about, .expertise {
     padding: 75px 0;
   }
-  .about__text p{
+  .about__text p {
     max-width: 100%;
+  }
+  .title {
+    font-size: 48px;
+    line-height: 65px;
+  }
+  .expertise__title {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .expertise__inner {
+    display: block;
+    margin-bottom: 75px;
+  }
+  .expertise__info {
+    width: 100%;
+    margin-right: 0;
+  }
+  .expertise__items {
+    display: block;
+  }
+  .expertise__item {
+    width: 100%;
+    margin-bottom: 40px;
   }
 }
 
@@ -798,7 +823,7 @@ ul.footer_social {
     font-size: 14px;
     line-height: 16px;
   }
-  .title{
+  .title {
     font-size: 48px;
     line-height: 60px;
   }
@@ -813,8 +838,24 @@ ul.footer_social {
     font-size: 12px;
     line-height: 14px;
   }
-  .about__title, .title{
+  .about__title, .title {
     font-size: 35px;
     line-height: 42px;
+  }
+}
+
+@media (max-width: 340px) {
+  .expertise__item {
+    padding-left: 0;
+    padding-top: 60px;
+  }
+  .expertise__inner {
+    margin-bottom: 30px;
+  }
+  .expertise {
+    padding: 50px 0 0;
+  }
+  .about, .magic__inner {
+    padding: 50px 0 40px
   }
 }
