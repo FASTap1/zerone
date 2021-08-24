@@ -301,7 +301,7 @@ body {
 }
 
 .portfolio__filter-btn {
-  margin-right: 40px;
+  margin-right: 65px;
 }
 
 .portfolio__btn {
@@ -314,12 +314,15 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 0 4px 5px;
-  margin-right: 25px;
   outline-color: #FCBB08;
 }
 
 .mixitup-control-active {
   border-bottom: 1px solid #FCBB08;
+}
+
+.portfolio__btn+.portfolio__btn {
+  margin-left: 25px;
 }
 
 .portfolio__content {
@@ -720,10 +723,10 @@ ul.footer_social {
 }
 
 @media (max-width: 1450px) {
-  .magic__inner{
+  .magic__inner {
     padding: 50px 0;
   }
-} 
+}
 
 @media (max-width: 1200px) {
   .about__inner {
@@ -732,7 +735,7 @@ ul.footer_social {
   .about__title {
     margin-bottom: 50px;
   }
-  .about, .expertise {
+  .about, .expertise, .portfolio {
     padding: 75px 0;
   }
   .about__text p {
@@ -744,6 +747,9 @@ ul.footer_social {
   }
   .expertise__title {
     margin-bottom: 50px;
+  }
+  .portfolio__filter-btn {
+    margin-right: 0;
   }
 }
 
@@ -763,15 +769,26 @@ ul.footer_social {
     width: 100%;
     margin-bottom: 40px;
   }
-  .magic{
+  .magic {
     background-image: none;
   }
-  .magic__inner{
+  .magic__inner {
     max-width: 100%;
     margin-left: 0;
   }
-  .magic__title{
+  .magic__title {
     margin-bottom: 50px;
+  }
+  .portfolio__content {
+    column-count: 3;
+    margin-bottom: 40px;
+  }
+  .portfolio__top {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .portfolio__filter-btn {
+    margin-top: 40px;
   }
 }
 
@@ -843,6 +860,34 @@ ul.footer_social {
     font-size: 48px;
     line-height: 60px;
   }
+  .portfolio__content {
+    column-count: 2;
+    margin-bottom: 40px;
+  }
+  .portfolio__btn {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .portfolio__btn+.portfolio__btn {
+    margin-left: 0;
+  }
+  .portfolio__add {
+    margin-bottom: 40px;
+  }
+  .blockquote {
+    margin-bottom: 40px;
+    padding: 0 15px;
+  }
+  .portfolio__video {
+    margin-bottom: 75px;
+  }
+  .portfolio__numbers {
+    flex-wrap: wrap;
+  }
+  .portfolio__numbers-item {
+    width: 50%;
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 440px) {
@@ -858,6 +903,9 @@ ul.footer_social {
     font-size: 35px;
     line-height: 42px;
   }
+  .portfolio__numbers-item {
+    width: 100%;
+  }
 }
 
 @media (max-width: 340px) {
@@ -871,7 +919,7 @@ ul.footer_social {
   .expertise {
     padding: 50px 0 0;
   }
-  .about, .magic__inner {
+  .about, .magic__inner, .portfolio {
     padding: 50px 0 40px
   }
 }
