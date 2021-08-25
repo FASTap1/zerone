@@ -4,7 +4,7 @@ $(function () {
         event.preventDefault();
         var id = $(this).attr('href'),
           top = $(id).offset().top;
-        $('body,html').animate({ scrollTop: top-100 }, 700);
+        $('body,html').animate({ scrollTop: top-90 }, 700);
       });
 
   $('.slider-blog__inner').slick({
