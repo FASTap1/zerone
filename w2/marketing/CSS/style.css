@@ -740,14 +740,33 @@ ul.footer_social {
   }
 }
 
+@media (max-width: 1300px) {
+  .connection {
+    background-image: none;
+    background-color: #f6f8fa;
+  }
+  .form {
+    max-width: 100%;
+    background-color: #f6f8fa;
+  }
+  .form textarea {
+    max-width: 100%;
+    background-color: #f6f8fa;
+  }
+  .form input {
+    max-width: 100%;
+    background-color: #f6f8fa;
+  }
+}
+
 @media (max-width: 1200px) {
   .about__inner {
     display: block;
   }
-  .about__title, .team__title, .pricing__title {
+  .about__title, .team__title, .pricing__title, .connection__title {
     margin-bottom: 50px;
   }
-  .about, .expertise, .portfolio, .slider-blog, .team, .pricing {
+  .about, .expertise, .portfolio, .slider-blog, .team, .pricing, .clients, .connection {
     padding: 75px 0;
   }
   .about__text p {
@@ -765,6 +784,9 @@ ul.footer_social {
   }
   .team__items, .pricing__items, .clients__list {
     column-gap: 20px;
+  }
+  .connection {
+    background-image: none;
   }
 }
 
@@ -804,6 +826,20 @@ ul.footer_social {
   }
   .portfolio__filter-btn {
     margin-top: 40px;
+  }
+  .footer__top {
+    padding-top: 75px;
+  }
+  .footer__logo {
+    margin-bottom: 50px;
+  }
+  ul.footer_social {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  .footer__social-list {
+    width: 33.3333%;
+    margin-bottom: 25px;
   }
 }
 
@@ -957,6 +993,9 @@ ul.footer_social {
   }
   .portfolio__numbers-item {
     width: 100%;
+  }
+  .footer__social-list {
+    width: 50%;
   }
 }
 
