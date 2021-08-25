@@ -744,10 +744,10 @@ ul.footer_social {
   .about__inner {
     display: block;
   }
-  .about__title, .team__title {
+  .about__title, .team__title, .pricing__title {
     margin-bottom: 50px;
   }
-  .about, .expertise, .portfolio, .slider-blog, .team {
+  .about, .expertise, .portfolio, .slider-blog, .team, .pricing {
     padding: 75px 0;
   }
   .about__text p {
@@ -763,7 +763,7 @@ ul.footer_social {
   .portfolio__filter-btn {
     margin-right: 0;
   }
-  .team__items {
+  .team__items, .pricing__items, .clients__list {
     column-gap: 20px;
   }
 }
@@ -913,6 +913,21 @@ ul.footer_social {
     font-size: 24px;
     line-height: 40px;
   }
+  .pricing__items {
+    display: block;
+  }
+  ul.pricing__item {
+    margin: 0 auto 25px;
+    max-width: 500px;
+    width: 100%;
+  }
+  .clients__list {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .clients__list li {
+    margin-bottom: 25px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -956,7 +971,7 @@ ul.footer_social {
   .expertise {
     padding: 50px 0 0;
   }
-  .about, .magic__inner, .portfolio {
+  .about, .magic__inner, .portfolio, .team, .pricing, .clients {
     padding: 50px 0 40px
   }
 }
