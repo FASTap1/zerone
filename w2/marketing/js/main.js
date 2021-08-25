@@ -1,6 +1,6 @@
 $(function () {
   
-      $(".menu a, .go-top").on("click", function (event) {
+  $(".menu a, .go-top, .logo").on("click", function (event) {
         event.preventDefault();
         var id = $(this).attr('href'),
           top = $(id).offset().top;
