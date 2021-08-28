@@ -461,6 +461,7 @@ body {
 .slider-blog {
   background-color: #f8f6fa;
   padding: 115px 0;
+  outline: none;
 }
 
 .slider-blog__item {
@@ -862,9 +863,9 @@ ul.footer_social {
 }
 
 @media (max-width: 768px) {
-  .header__top{
+  .header__top {
     padding-bottom: 19px;
-  } 
+  }
   .header__top-inner {
     position: static;
   }
@@ -943,8 +944,8 @@ ul.footer_social {
     margin-bottom: 40px;
   }
   .portfolio__btn {
-    display: block;
-    margin-bottom: 30px;
+   margin-bottom: 30px;
+   margin-top: 30px;
   }
   .portfolio__btn+.portfolio__btn {
     margin-left: 0;
